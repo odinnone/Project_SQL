@@ -87,9 +87,3 @@ CASE orderstatus
     ELSE 'Order is cancelled.'
 END AS order_summary
 FROM orders;
-
-/*
-4. Чем NULL отличается от 0?
-"0" — это значение, константа. 
-A "NULL" указывает на "пустое место" — объявленную, но неинициализированную переменную, объект и т.п.
-*/
